@@ -21,7 +21,7 @@ namespace SleepData
                  // ask a question
                 Console.WriteLine("How many weeks of data is needed?");
                 // input the response (convert to int)
-    
+                int weeks = int.Parse(Console.ReadLine());
                  // determine start and end date
                 DateTime today = DateTime.Now;
                 // we want full weeks sunday - saturday
